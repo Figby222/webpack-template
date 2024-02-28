@@ -27,6 +27,9 @@ module.exports = {
                 use: ['style-loader', 'css-loader'],
             }
         ]
-    }
+    },
+    optimization: {
+        runtimeChunk: 'single',
+    },
 };
     
