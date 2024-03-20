@@ -1,5 +1,6 @@
 {
   "name": "webpack-template",
+  "type": "module",
   "version": "1.0.0",
   "description": "A repository template that uses NPM webpack along with other useful plugins to aid the coding process",
   "main": "index.js",
