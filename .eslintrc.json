@@ -17,16 +17,6 @@
         "quotes": [
             "error",
             "double"
-        ],
-        "prefer-arrow-callback": "off",
-        "func-names": "off",
-        "no-use-before-define": "off",
-        "no-unused-vars": "off",
-        "no-underscore-dangle": "off",
-        "prefer-const": "off",
-        "no-plusplus": "off",
-        "eslint-plugin-import/extensions": [
-            "never"
         ]
     }
 }
