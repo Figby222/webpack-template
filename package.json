@@ -5,7 +5,7 @@
   "description": "A repository template that uses NPM webpack along with other useful plugins to aid the coding process",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "build": "webpack --config webpack.config.js",
     "start": "webpack serve --open --config webpack.config.js"
   },
