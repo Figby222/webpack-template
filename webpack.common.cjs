@@ -52,6 +52,12 @@ module.exports = {
           test: /\.xml$/i,
           use: ["xml-loader"],
         },
+        {
+          test: /\.(jpg|png|svg|jpg|jpeg|gif|woff|woff2|eot|ttf|otf|csv|tsv|js|mjs|cjs|.css)$/,
+          use: {
+            loader: "url-loader",
+          },
+        },
     ]
   },
 };
